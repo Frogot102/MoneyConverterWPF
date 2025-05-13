@@ -24,7 +24,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Grid.ColumnSpan="3" Orientation="Horizontal">
-            <TextBlock Text="Введите сумму в рублях:" Margin="0 0 10 0"/>
+            <TextBlock Text="Введите сумму для ковнертации:" Margin="0 0 10 0"/>
             <TextBox x:Name="RubTb" Width="150" Background="AliceBlue" TextAlignment="Right" TextChanged="RubTb_TextChanged" Text="0"/>
         </StackPanel>
         <StackPanel Grid.Row="2" Grid.Column="1" VerticalAlignment="Center">
@@ -39,7 +39,7 @@
             <Button x:Name="ConvertBtn" Width="100" Content="Конвертировать" Click="ConvertBtn_Click" />
         </StackPanel>
         <StackPanel Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal" VerticalAlignment="Center">
-            <TextBlock Text="Результат конвертации: " Margin="0 0 10 0"/>
+            <TextBlock Text="Результат конвертациим в рублях: " Margin="0 0 10 0"/>
             <TextBlock x:Name="Result" Text="0" Background="Black" Width="125" TextAlignment="Right" Foreground="White"/>
         </StackPanel>
     </Grid>
