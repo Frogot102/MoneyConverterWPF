@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MoneyConverterWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Icon="C:\Users\User\Desktop\valuta.ico">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -31,7 +32,7 @@
             <TextBlock Text="Выбор валюты:" TextAlignment="Center"/>
         </StackPanel>
         <StackPanel Grid.Row="2" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" Grid.ColumnSpan="2">
-            <ComboBox Width="50" Margin="0 0 10 0" x:Name="ValCmb" SelectionChanged="ValCmb_SelectionChanged" SelectedIndex="1">
+            <ComboBox Width="50" Margin="0 0 10 0" x:Name="ValCmb" SelectionChanged="ValCmb_SelectionChanged">
                 <ComboBoxItem Content="USD"/>
                 <ComboBoxItem Content="EUR"/>
                 <ComboBoxItem Content="CNY"/>
